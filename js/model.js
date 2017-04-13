@@ -1,7 +1,6 @@
 class Book {
 
   constructor() {
-    this.books = [];
     this.name = '';
     this.author = '';
   }
@@ -24,14 +23,5 @@ class Book {
     get bAuthor() {
       return this.author;
     }
-    get all() {
-      return this.books;
-    }
   // -----------------------------
-
-  // Methods
-  addBook() {
-    this.books.push({name: this.name, author: this.author});
-  }
-
 } //Close class 
