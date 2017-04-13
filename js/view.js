@@ -17,7 +17,6 @@ const createBook = () => {
   // Set values
   myBook.bName = li.innerHTML;
   myBook.bAuthor = author.value;
-  myBook.addBook();
   //console.log(`Book name: ${myBook.bName} and the Author is ${myBook.bAuthor}`);
 
   //Clean both inputs text
